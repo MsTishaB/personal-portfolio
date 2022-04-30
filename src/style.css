@@ -2,7 +2,7 @@
 	--heading-font-family: "Playfair Display", serif;
 	--default-font-family: "Poppins", sans-serif;
 	--default-font-color: #272142;
-	--branding-color: #6c63ff;
+	--branding-color: rgb(0, 162, 232);
 	--secondary-color: #f9f7fe;
 }
 
@@ -32,7 +32,8 @@ p {
 }
 
 .logo {
-	max-height: 40px;
+	max-height: 45px;
+	border-radius: 50%;
 }
 
 nav {
