@@ -3,7 +3,7 @@
 	--default-font-family: "Poppins", sans-serif;
 	--default-font-color: #272142;
 	--branding-color: rgb(0, 162, 232);
-	--secondary-color: #f9f7fe;
+	--secondary-color: rgb(173, 216, 230, 0.2);
 }
 
 h1,
@@ -140,15 +140,13 @@ nav li.active a {
 
 .content h3 {
 	font-size: 24px;
-	text-align: center;
+
 	font-weight: 700;
 	font-family: var(--default-font-family);
 }
 
-.work-portfolio p {
-	font-size: 14px;
-	text-align: center;
-	font-family: var(--default-font-family);
+.portfolio img {
+	max-width: 700px;
 }
 
 footer {
@@ -226,6 +224,15 @@ footer .contact-box a {
 	.content-container {
 		padding: 0px 20px;
 	}
+
+	.content h1 {
+		font-size: 44px;
+		line-height: 63px;
+	}
+	.portfolio img {
+		max-width: 300px;
+	}
+
 	nav a {
 		font-size: 12px;
 	}
